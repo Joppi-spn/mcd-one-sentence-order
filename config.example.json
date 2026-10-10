@@ -1,0 +1,16 @@
+{
+  "mcp_servers": {
+    "mcd-mcp": {
+      "type": "streamablehttp",
+      "url": "https://mcp.mcd.cn",
+      "headers": {
+        "Authorization": "Bearer <YOUR_MCD_MCP_TOKEN>"
+      }
+    }
+  },
+  "skill_defaults": {
+    "calorie_cap_kcal": 800,
+    "budget_cap_cny": 40,
+    "party_size": 1
+  }
+}
